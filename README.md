@@ -40,3 +40,36 @@
 ![image](img/image7.png)
 
 
+# Assembly
+
+![alt text](Mechanical_IMG/image1.png)
+
+![alt text](Mechanical_IMG/image3.png)
+
+![alt text](Mechanical_IMG/image4.png)
+
+![alt text](Mechanical_IMG/image5.png)
+
+![alt text](Mechanical_IMG/image6.png)
+
+![alt text](Mechanical_IMG/image7.png)
+
+![alt text](Mechanical_IMG/image8.png)
+
+![alt text](Mechanical_IMG/image9.png)
+
+![alt text](Mechanical_IMG/image10.png)
+
+![alt text](Mechanical_IMG/image11.png)
+
+Thanks to the help of @jlccnc_official, I could be able to reinforce the hardware of my own Actuator for future project(Full-size Humanoid robot)!! I am really glad to see this beauty of mechanical design!! 
+
+The 'Housing Parts' of my actuators are manufactured with PA12-CF(carbon fiber filament) and 'Cycloidal Disks' & 'Input Shafts' are manufactured with Aluminium6061. And Rotor is Aluminium7075(7075 aluminum alloy has a tight structure and strong corrosion resistance and is best for aviation and marine plates)
+
+It could be able to have High Durability, Rigidity and Low Mechanical Impedances and so on.
+
+----[ Measurements of the design ]----
+
+outer diameter : 100mm
+
+height : 35mm
