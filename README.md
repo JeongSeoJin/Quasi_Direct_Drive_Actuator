@@ -1,5 +1,16 @@
 # Quasi-Direct-Drive-Actuator
 
+This is on-going Open-Source Project of Cycloidal Quasi-Direct Drive. So I'm going to upload updated Image and Video continuously. You can look forward to my Project!!
+
+
+
+CAD files are available in 'Mechanical_CAD_Design' Folder
+Commercial Off-The-Shelf Components are Listed in OFF_THE_SHELF_SPECIFICATIONS
+
+
+
+
+
 ## CAD Design Overview
 ![image](img/image.png)
 
