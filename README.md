@@ -2,8 +2,6 @@
 
 An open-source project implementing a quasi-direct-drive cycloidal actuator. This repository contains CAD models, parts lists, assembly photos, and ongoing design updates.
 
-Badges: Experimental • License: TBD
-
 Table of contents
 - [Overview](#overview)
 - [Repository layout](#repository-layout)
@@ -16,7 +14,6 @@ Table of contents
 ---
 
 ## Overview
-High-level renders and photos of the actuator. Click thumbnails to open full-resolution images in your viewer.
 
 <div style="display:flex; flex-wrap:wrap; gap:8px;">
   <img src="img/image.png" alt="overview1" style="flex:1 1 48%; max-width:600px; width:48%;">
