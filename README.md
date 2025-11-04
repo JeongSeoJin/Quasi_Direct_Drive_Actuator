@@ -1,74 +1,89 @@
-# Quasi-Direct-Drive-Actuator
+# Quasi-Direct-Drive Actuator
 
-This is on-going Open-Source Project of Cycloidal Quasi-Direct Drive. So I'm going to upload updated Image and Video continuously. You can look forward to my Project!!
+An open-source project implementing a quasi-direct-drive cycloidal actuator. This repository contains CAD models, parts lists, assembly photos, and ongoing design updates.
 
+Badges: Experimental • License: TBD
 
+Table of contents
+- [Overview](#overview)
+- [Repository layout](#repository-layout)
+- [Materials & finishes](#materials--finishes)
+- [Off-the-shelf parts](#off-the-shelf-parts)
+- [Assembly images](#assembly-images)
+- [How to contribute](#how-to-contribute)
+- [License](#license)
 
-CAD files are available in 'Mechanical_CAD_Design' Folder
-Commercial Off-The-Shelf Components are Listed in OFF_THE_SHELF_SPECIFICATIONS
+---
 
+## Overview
+High-level renders and photos of the actuator. Click thumbnails to open full-resolution images in your viewer.
 
+<div style="display:flex; flex-wrap:wrap; gap:8px;">
+  <img src="img/image.png" alt="overview1" style="flex:1 1 48%; max-width:600px; width:48%;">
+  <img src="img/image2.png" alt="overview2" style="flex:1 1 48%; max-width:600px; width:48%;">
+  <img src="img/image3.png" alt="overview3" style="flex:1 1 48%; max-width:600px; width:48%;">
+  <img src="img/image4.png" alt="overview4" style="flex:1 1 48%; max-width:600px; width:48%;">
+</div>
 
+---
 
+## Repository layout
+- Mechanical_CAD_Design/ — CAD models (STEP/Source)  
+- Mechanical_IMG/ and img/ — photos and renders used in this README  
+- OFF_THE_SHELF_SPECIFICATIONS/ — commercial component specs (bearings, shafts, controllers)  
+- BOM/ — Bill of Materials (preparing)
 
-## CAD Design Overview
-![image](img/image.png)
+---
 
-![image](img/image2.png)
+## Materials & finishes
 
-![image](img/image3.png)
+### Housing — PA12-CF
+<img src="img/image5.png" alt="housing" style="width:60%; max-width:800px; display:block; margin:8px 0;">
 
-![image](img/image4.png)
+### Gears — Aluminum 6061 (bead blasted + anodized)
+<img src="img/image9.png" alt="gears" style="width:48%; max-width:600px; margin:8px 1%;">
 
+### Input shaft & rotor — Aluminum 6061 (bead blasted + anodized)
+<img src="img/image10.png" alt="shaft1" style="width:48%; max-width:600px; margin:8px 1%;">
+<img src="img/image12.png" alt="shaft2" style="width:48%; max-width:600px; margin:8px 1%;">
 
-## Material Selection per each parts
+### Output shaft — PA12-CF
+<img src="img/image11.png" alt="output-shaft" style="width:48%; max-width:600px; margin:8px 1%;">
 
+### Outer gear — PA12-CF or Aluminum 6061
+<img src="img/image13.png" alt="outer-gear" style="width:48%; max-width:600px; margin:8px 1%;">
 
-### Housing : PA12-CF 
-![image](img/image5.png)
+### Coupler — Housing to rotor(PLA)
+<img src="img/image14.png" alt="coupler" style="width:48%; max-width:600px; margin:8px 1%;">
 
-### Gears : Aluminium 6061 (bead blasting + Hardcoat Anodizing)
-![image](img/image9.png)
+---
 
-### Input Shaft & Rotor: Aluminium 6061 (bead blasting + Anodizing)
-![image](img/image10.png)
-![image](img/image12.png)
+## Off-the-shelf parts
+Common commercial parts used: bearings, stator, FOC controller, fasteners. See OFF_THE_SHELF_SPECIFICATIONS for part numbers and suppliers.
 
-### Output Shaft : PA12-CF
-![image](img/image11.png)
+<div style="display:flex; gap:8px; flex-wrap:wrap;">
+  <img src="img/image6.png" alt="part1" style="width:48%; max-width:600px;">
+  <img src="img/image7.png" alt="part2" style="width:48%; max-width:600px;">
+</div>
 
-### Outer Gear : PA12-CF + 'stainless steel shaft'(off-the-shelf, only contact faces) / Aluminium 6061
-![image](img/image13.png)
+---
 
-### Coupler : Housing to Rotor
-![image](img/image14.png)
+## Assembly images
+These are assembly images(I'm preparing for more details)
 
+<div style="display:flex; flex-wrap:wrap; gap:8px;">
+  <img src="Mechanical_IMG/image1.png" alt="assembly1" style="width:30%; max-width:360px;">
+  <img src="Mechanical_IMG/image3.png" alt="assembly2" style="width:30%; max-width:360px;">
+  <img src="Mechanical_IMG/image4.png" alt="assembly3" style="width:30%; max-width:360px;">
+  <img src="Mechanical_IMG/image5.png" alt="assembly4" style="width:30%; max-width:360px;">
+  <img src="Mechanical_IMG/image6.png" alt="assembly5" style="width:30%; max-width:360px;">
+  <img src="Mechanical_IMG/image7.png" alt="assembly6" style="width:30%; max-width:360px;">
+  <img src="Mechanical_IMG/image8.png" alt="assembly7" style="width:30%; max-width:360px;">
+  <img src="Mechanical_IMG/image9.png" alt="assembly8" style="width:30%; max-width:360px;">
+  <img src="Mechanical_IMG/image10.png" alt="assembly9" style="width:30%; max-width:360px;">
+  <img src="Mechanical_IMG/image11.png" alt="assembly10" style="width:30%; max-width:360px;">
+</div>
 
-## Off-The-Shelf Parts
-### Bearings / Stator / FOC Controller
-![image](img/image6.png)
+---
 
-![image](img/image7.png)
-
-
-# Assembly
-
-![alt text](Mechanical_IMG/image1.png)
-
-![alt text](Mechanical_IMG/image3.png)
-
-![alt text](Mechanical_IMG/image4.png)
-
-![alt text](Mechanical_IMG/image5.png)
-
-![alt text](Mechanical_IMG/image6.png)
-
-![alt text](Mechanical_IMG/image7.png)
-
-![alt text](Mechanical_IMG/image8.png)
-
-![alt text](Mechanical_IMG/image9.png)
-
-![alt text](Mechanical_IMG/image10.png)
-
-![alt text](Mechanical_IMG/image11.png)
+I keep developing my actuators. It's ongoing project. please stay tuned!
