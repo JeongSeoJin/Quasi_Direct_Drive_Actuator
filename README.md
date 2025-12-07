@@ -37,8 +37,8 @@ The project involves complex mechanical design (cycloidal gearing), electromagne
 
   <table>
     <tr>
-      <td><img src="Mechanical_IMG/image_1.jpg" width="150" alt="Actuator image 1" /></td>
-      <td><img src="Mechanical_IMG/image1.png" width="150" alt="Actuator image 2" /></td>
+      <td><img src="Mechanical_IMG/image_1.jpg" width="250" alt="Actuator image 1" /></td>
+      <td><img src="Mechanical_IMG/image1.png" width="250" alt="Actuator image 2" /></td>
     </tr>
   </table>
 
@@ -73,8 +73,8 @@ A custom **1:10 Cycloidal Drive** was designed to ensure compactness and shock l
 
   <table>
     <tr>
-      <td><img src="Mechanical_IMG/image_2.jpg" width="150" alt="Actuator image 1" /></td>
-      <td><img src="Mechanical_IMG/image4.png" width="150" alt="Actuator image 2" /></td>
+      <td><img src="Mechanical_IMG/image_2.jpg" width="250" alt="Actuator image 1" /></td>
+      <td><img src="Mechanical_IMG/image4.png" width="250" alt="Actuator image 2" /></td>
     </tr>
   </table>
 
@@ -92,7 +92,7 @@ Instead of using an off-the-shelf motor, the driving system was custom-built to 
     * **Control Method:** Field Oriented Control (FOC) for smooth torque generation.
     * **Specs:** 10-51V Input, 20A Peak Phase Current.
 
-    <img src="Mechanical_IMG/controller.webp" width="150" alt="Actuator image 2" />
+    <img src="Mechanical_IMG/controller.webp" width="250" alt="Actuator image 2" />
 ---
 
 ## 4. Fabrication & Assembly
