@@ -1,3 +1,5 @@
+<img src="Mechanical_IMG/image_4.jpg" style="max-width:510px; height:auto;" alt="Actuator image 1" />
+
 # QDD Actuator for Humanoid Robotics
 
 An open-source project implementing a quasi-direct-drive cycloidal actuator. This repository contains CAD models, parts lists, assembly photos, and ongoing design updates.
