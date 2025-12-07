@@ -122,6 +122,8 @@ preparing
 ---
 
 ## 7. Credits
-* **Design & Engineering:** [Seo Jin Jeong]
-* **Manufacturing Sponsor:** JLCCNC
-* **Controller:** Moteus-c1 Controller (mjbots)
+* **Design & Engineering:** Seo Jin Jeong
+* **Manufacturing Sponsor:** [JLCCNC](https://jlccnc.com/)
+* **Controller:** [Moteus-c1 Controller (mjbots)](https://mjbots.com/products/moteus-c1?pr_prod_strat=e5_desc&pr_rec_id=5a7f102a9&pr_rec_pid=7839892799649&pr_ref_pid=7358414749857&pr_seq=uniform)
+* **Youtube** : [Engineering SeoJin](http://www.youtube.com/@engineeringseojin)
+* **Instagram** : [engineering.seojin_n.n](https://www.instagram.com/engineering.seojin_n.n?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
