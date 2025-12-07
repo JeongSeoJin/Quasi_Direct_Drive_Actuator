@@ -35,10 +35,12 @@ The project involves complex mechanical design (cycloidal gearing), electromagne
 * **Manufacturing Partner:** [JLCCNC](https://jlcpcb.com/cnc) (CNC Machining)
 * **Status:** Prototype Assembly & Validation is ongoing
 
-  <div style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
-    <img src="Mechanical_IMG/image_1.jpg" style="max-width:150px; height:auto;" alt="Actuator image 1" />
-    <img src="Mechanical_IMG/image1.png" style="max-width:150px; height:auto;" alt="Actuator image 2" />
-  </div>
+  <table>
+    <tr>
+      <td><img src="Mechanical_IMG/image_1.jpg" width="150" alt="Actuator image 1" /></td>
+      <td><img src="Mechanical_IMG/image1.png" width="150" alt="Actuator image 2" /></td>
+    </tr>
+  </table>
 
 ---
 
@@ -69,10 +71,12 @@ A custom **1:10 Cycloidal Drive** was designed to ensure compactness and shock l
 * **Material:** * **Gears & Rotor:** CNC-machined Aluminum (AL6061) for high strength-to-weight ratio.
     * **Housing:** 3D Printed / Hybrid materials.
 
-  <div style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
-    <img src="Mechanical_IMG/image_2.jpg" style="max-width:150px; height:auto;" alt="Actuator image 1" />
-    <img src="Mechanical_IMG/image4.png" style="max-width:150px; height:auto;" alt="Actuator image 2" />
-  </div>
+  <table>
+    <tr>
+      <td><img src="Mechanical_IMG/image_2.jpg" width="150" alt="Actuator image 1" /></td>
+      <td><img src="Mechanical_IMG/image4.png" width="150" alt="Actuator image 2" /></td>
+    </tr>
+  </table>
 
 ### 3.2 Electromagnetic Design (Custom BLDC)
 Instead of using an off-the-shelf motor, the driving system was custom-built to fit the housing constraints.
@@ -88,7 +92,7 @@ Instead of using an off-the-shelf motor, the driving system was custom-built to 
     * **Control Method:** Field Oriented Control (FOC) for smooth torque generation.
     * **Specs:** 10-51V Input, 20A Peak Phase Current.
 
-    <img src="Mechanical_IMG/controller.webp" style="max-width:150px; height:auto;" alt="Actuator image 2" />
+    <img src="Mechanical_IMG/controller.webp" width="150" alt="Actuator image 2" />
 ---
 
 ## 4. Fabrication & Assembly
