@@ -36,8 +36,8 @@ The project involves complex mechanical design (cycloidal gearing), electromagne
 * **Status:** Prototype Assembly & Validation is ongoing
 
   <div style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
-    <img src="Mechanical_IMG/image_1.jpg" style="max-width:200px; height:auto;" alt="Actuator image 1" />
-    <img src="Mechanical_IMG/image1.png" style="max-width:200px; height:auto;" alt="Actuator image 2" />
+    <img src="Mechanical_IMG/image_1.jpg" style="max-width:150px; height:auto;" alt="Actuator image 1" />
+    <img src="Mechanical_IMG/image1.png" style="max-width:150px; height:auto;" alt="Actuator image 2" />
   </div>
 
 ---
@@ -70,8 +70,8 @@ A custom **1:10 Cycloidal Drive** was designed to ensure compactness and shock l
     * **Housing:** 3D Printed / Hybrid materials.
 
   <div style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
-    <img src="Mechanical_IMG/image_2.jpg" style="max-width:200px; height:auto;" alt="Actuator image 1" />
-    <img src="Mechanical_IMG/image4.png" style="max-width:200px; height:auto;" alt="Actuator image 2" />
+    <img src="Mechanical_IMG/image_2.jpg" style="max-width:150px; height:auto;" alt="Actuator image 1" />
+    <img src="Mechanical_IMG/image4.png" style="max-width:150px; height:auto;" alt="Actuator image 2" />
   </div>
 
 ### 3.2 Electromagnetic Design (Custom BLDC)
