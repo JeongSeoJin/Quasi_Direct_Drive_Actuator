@@ -1,3 +1,8 @@
+---
+layout: default
+title: QDD Actuator Project
+---
+
 <img src="Mechanical_IMG/image_4.jpg" style="max-width:510px; height:auto;" alt="Actuator image 1" />
 
 # QDD Actuator for Dynamic Robots
