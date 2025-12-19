@@ -1,8 +1,6 @@
 <img src="Mechanical_IMG/image_4.jpg" style="max-width:510px; height:auto;" alt="Actuator image 1" />
 
-# QDD Actuator for Dynamic Robotics
-
-An open-source project of a quasi-direct-drive cycloidal actuator utilizing for dynamic robots of future projects. Through Github repository link in this page, you can find CAD models, parts lists, assembly photos, and ongoing design updates.
+# QDD Actuator for Dynamic Robots
 
 > *Custom-designed Quasi-Direct Drive (QDD) actuator featuring a low ratio reducer with 1:10 improving Backdrivability and Responsiveness. And It has over 7Nm Max Holding Torque(not accurately measured yet)*
 
