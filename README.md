@@ -1,12 +1,14 @@
 <img src="Mechanical_IMG/image_4.jpg" style="max-width:510px; height:auto;" alt="Actuator image 1" />
 
-# QDD Actuator for Humanoid Robotics
+# QDD Actuator for Dynamic Robotics
 
-An open-source project implementing a quasi-direct-drive cycloidal actuator. This repository contains CAD models, parts lists, assembly photos, and ongoing design updates.
+An open-source project of a quasi-direct-drive cycloidal actuator utilizing for dynamic robots of future projects. Through Github repository link in this page, you can find CAD models, parts lists, assembly photos, and ongoing design updates.
+
+> *Custom-designed Quasi-Direct Drive (QDD) actuator featuring a low ratio reducer with 1:10 improving Backdrivability and Responsiveness. And It has over 7Nm Max Holding Torque(not accurately measured yet)*
 
 Table of contents
 
-- [0. Repository Layout](#0-repository-layout)
+- [0. Repository Layout](#0-layout)
 - [1. Project Overview](#1-project-overview)
 - [2. Actuator Design : Why QDD Actuator](#2-actuator-design-why-qdd-actuator)
 - [3. System Architecture & Components](#3-system-architecture--components)
@@ -15,16 +17,13 @@ Table of contents
 
 ---
 
-## 0. Repository layout
+## 0. layout
 - Mechanical_CAD_Design/ — CAD models(assembly file) (STEP/Source)  
 - Motor_Control/ — Sources(if you're using esp32/arduino and drv8302 motor driver)
 - Mechanical_IMG/ — photos and renders used in this README  
 - OFF_THE_SHELF_SPECIFICATIONS/ — commercial component specs (bearings, shafts, controllers etc)  
 - BOM/ — Bill of Materials (preparing)
 
-
-
-> *Custom-designed Quasi-Direct Drive (QDD) actuator featuring a dual-disk cycloidal reducer with 1:10 ratio and It has about 7Nm Max Holding Torque*
 
 ## 1. Project Overview
 This project focuses on the design, fabrication, and control of a custom actuator intended for a **future humanoid robot platform**. To achieve dynamic human-robot interaction, the actuator is designed based on the **Quasi-Direct Drive (QDD)** architecture, prioritizing back-drivability, responsiveness and torque density over pure holding force.
@@ -47,10 +46,13 @@ The project involves complex mechanical design (cycloidal gearing), electromagne
 ## 2. Actuator Design: Why QDD Actuator?
 
 ### 2.1 The Limitations of Traditional Actuators
-Conventional robotic joints typically utilize high gear reduction ratios (e.g., 1:100 or higher) to amplify torque from small motors. However, this approach introduces significant drawbacks for dynamic robots:
-* **High Mechanical Impedance:** The joints become stiff and rigid.
-* **Low Back-drivability & Responsiveness:** The robot cannot passively absorb external impacts. 
-* **Safety Risks:** Rigid joints pose a danger during human-robot interaction.
+
+
+**Conventional robotic** actuators typically utilize high gear reduction ratios (e.g., 1:100 or higher) to amplify torque. However, this conventional approach introduces significant drawbacks for dynamic robots.
+
+A high gear ratio leads to **High Mechanical Impedance** (induced by increased friction and reflected inertia compared to a low gear ratio). This high Mechanical Impedance makes the motor response sluggish and susceptible to damage from sudden external interactions because the actuators are too stiff and rigid to react. In other words, the actuator exhibits **Low Back-drivability & Responsiveness**. Consequently, these properties make it difficult for the actuator to interact with the environment, such as in Human-Robot Interaction (HRI) scenarios or during the locomotion of dynamic robots.
+
+As robots become more advanced and integrated into our daily lives, physical interaction and cooperation with robots will become increasingly common. However, in these scenarios, traditional actuators pose a significant safety risk. Because robots with stiff actuators struggle to sense external forces, they can injure people due to their low responsiveness and lack of back-drivability. Furthermore, regarding locomotion, robots cannot flexibly respond to unpredictable environments, such as rough or uneven terrain, which leads to instability.
 
 ### 2.2 The QDD Solution
 To address these issues, this actuator adopts a **Quasi-Direct Drive** architecture:
@@ -59,6 +61,8 @@ To address these issues, this actuator adopts a **Quasi-Direct Drive** architect
 2.  **High Torque Density Motor:**
   * Torque is proportional to the rotor diameter, specifically the square of the radius ($T \propto r^2).
   * By increasing the stator diameter (using an 8110 motor), I exponentially increased the torque output, allowing for a lower gear reduction ratio.
+
+To address above issues, I adopt a Quasi-Direct Drive(QDD) design. QDD design has low-gear ratio in range of 1:3 to 1:10. It's not Direct Drive(1:1 ratio) and Indirect Drive(1:50 or higher) neither. It's between of them. It takes advantage of both of their design. Low-gear ratio let robotic actuators smoothly back-drivable and responsive to external interactions. This compensate all of the problems of Conventional Actuator drawbacks. **High Back-drivability & Responsiveness** make robotic actuators safely interact with humans and
 
 ---
 
