@@ -1,3 +1,11 @@
+---
+title: "Cycloidal QDD Actuator"
+date: 2025-12-20
+categories: [Project]
+tags: [Robotics, Actuator]
+pin: true
+---
+
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
@@ -180,11 +188,11 @@ Using this actator, I could build mid-size humanoid robot or bipedal robot. 5dof
 ---
 
 ## 7. Credits
-* **Design, Engineering and Documentation:** Seo Jin Jeong
-* **Manufacturing Sponsor:** [JLCCNC](https://jlccnc.com/)
-* **Motor Controller:** [Moteus-c1 Controller (mjbots)](https://mjbots.com/products/moteus-c1?pr_prod_strat=e5_desc&pr_rec_id=5a7f102a9&pr_rec_pid=7839892799649&pr_ref_pid=7358414749857&pr_seq=uniform)
-* **Youtube** : [Engineering SeoJin](http://www.youtube.com/@engineeringseojin)
-* **Instagram** : [engineering.seojin_n.n](https://www.instagram.com/engineering.seojin_n.n?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
+* Design, Engineering and Documentation: Seo Jin Jeong
+* Manufacturing Sponsor: [JLCCNC](https://jlccnc.com/)
+* Motor Controller: [Moteus-c1 Controller (mjbots)](https://mjbots.com/products/moteus-c1?pr_prod_strat=e5_desc&pr_rec_id=5a7f102a9&pr_rec_pid=7839892799649&pr_ref_pid=7358414749857&pr_seq=uniform)
+* Youtube : [Engineering SeoJin](http://www.youtube.com/@engineeringseojin)
+* Instagram : [engineering.seojin_n.n](https://www.instagram.com/engineering.seojin_n.n?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 
 
 ## 8. References
