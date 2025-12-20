@@ -67,25 +67,30 @@
 
 "Let's start with the **cycloidal gears**."
 
+cycloidal drives have High Robustness and Low backlash compared to planetary gearboxs and Harmonic Drives. So I select Cycloidal Drivce for my actuator. 
+
 "This is a **dual-disk** setup. This design prevents the **oscillation** (vibration) caused by the eccentric shafts."
+two cycloidal gears are kept in an **inverted phase**—exactly **180 degrees** apart."
+
+"This is because they have to **cancel out** the eccentric forces to balance the system."
 
 "The output shafts have **rollers** like this."
 
 "These rollers make the cycloidal gears rotate much **more smoothly**."
 
-"Here is a key point: We must make sure the two cycloidal gears are kept in an **inverted phase**—exactly **180 degrees** apart."
-
-"This is because they have to **cancel out** the eccentric forces to balance the system."
-
 **[Scene: Putting parts into the housing]**
 
 "Next, I put the gearbox into the housing, followed by the stator that I wound by myself."
+
+I used 0.4mm enameled copper wires for my stator. And I wound 6 wire in parellel, 5 turns each around BLDC Motor winding configuration
 
 "Make sure to **fasten** everything tightly."
 
 **[Scene: Applying grease]**
 
-"Oh, I almost forgot **lubricating** the gears! We have to do this. It is **essential** to prevent wear from friction."
+"Don't forgot to **lubricating** the gears! We have to do this. It is **essential** to prevent wear from friction."
+
+"And Finally, the reducer is fully back-drivable. This makes it highly sensitive and responsive to external interactions."
 
 **[Scene: Rotor assembly]**
 
