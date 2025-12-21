@@ -166,7 +166,8 @@ The second issue lies in the assembly of the eccentric input shaft. Currently, i
 During operation, the strong radial magnetic attraction between the rotor and stator exerts significant force on the shaft. This force compromises the alignment of the multi-part shaft assembly, causing slight structural deflection. This misalignment leads to unwanted oscillation and vibration, particularly at higher rotational speeds. A monolithic (single-piece) shaft design is required to resolve this issue.
 
 ### 6.2 Future Works
-Using this actator, I could build mid-size humanoid robot or bipedal robot. 5dof per leg, 10 actuators are needed for lower-body.
+
+Moving forward, I aim to integrate these custom QDD actuators into a mid-size bipedal robot to validate their performance in a complete system. The target platform will feature a total of 10 degrees of freedom (DoF), with 5 actuators allocated to each leg, specifically designed to handle dynamic walking tasks. This project will serve as a crucial step in verifying the scalability of my hardware design while providing a physical testbed for implementing advanced locomotion control algorithms.
 
 
 ---
