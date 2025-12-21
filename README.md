@@ -11,7 +11,7 @@
   });
 </script>
 
-<img src="Mechanical_IMG/image_4.jpg" style="max-width:510px; height:auto;" alt="Actuator image 1" />
+<img src="actual-img/image_4.jpg" style="max-width:510px; height:auto;" alt="Actuator image 1" />
 
 # Cycloidal QDD Actuator for Dynamic Robots
 
@@ -41,8 +41,8 @@ The current prototype utilizes a 3D-printed and aluminium structure to ensure lo
 
   <table>
     <tr>
-      <td><img src="Mechanical_IMG/image_1.jpg" width="250" alt="Actuator image 1" /></td>
-      <td><img src="Mechanical_IMG/image1.png" width="250" alt="Actuator image 2" /></td>
+      <td><img src="actual-img/image_1.jpg" width="250" alt="Actuator image 1" /></td>
+      <td><img src="actual-img/image1.png" width="250" alt="Actuator image 2" /></td>
     </tr>
   </table>
 
@@ -107,8 +107,8 @@ For the current prototype, the gears, shafts and rotor are manufactured from CNC
 
   <table>
     <tr>
-      <td><img src="Mechanical_IMG/image_2.jpg" width="250" alt="Actuator image 1" /></td>
-      <td><img src="Mechanical_IMG/image4.png" width="250" alt="Actuator image 2" /></td>
+      <td><img src="actual-img/image_2.jpg" width="250" alt="Actuator image 1" /></td>
+      <td><img src="actual-img/image4.png" width="250" alt="Actuator image 2" /></td>
     </tr>
   </table>
 
@@ -127,7 +127,7 @@ For precise torque control and dynamic response, I integrated the **Moteus-c1 co
 
 It implements **Field Oriented Control (FOC)**, which is essential for smooth torque generation and the proprioceptive capabilities mentioned earlier. With a wide input range (10-51V) and **20A peak phase current**, it provides sufficient power capacity to drive the custom-wound 8110 stator to its full potential.
 
-<img src="Mechanical_IMG/controller.webp" width="250" alt="Actuator image 2" />
+<img src="actual-img/controller.webp" width="250" alt="Actuator image 2" />
 ---
 
 ## 4. Assembly
