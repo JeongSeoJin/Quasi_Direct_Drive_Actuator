@@ -1,10 +1,15 @@
 title: Robotics Portfolio
-# description: This is a Cycloidal QDD Actuator Project Page
-theme: minima
+author: SeoJin Jeong
+email: pysuk88@gmail.com
 description: >-
-  Here is my portfolio
+  Robotics Engineer Portfolio - Design, Control Theory, Open Source Projects.
+url: "https://jeongseojin.github.io"
 
 header_pages:
   - README.md
   - qdd-actuator.md
   - about.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
