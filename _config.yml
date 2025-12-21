@@ -1,9 +1,14 @@
-title: Robotics Portfolio
+title: SeoJin Jeong | Robotics Portfolio
 thema: minima
 description: >-
   This is a Cycloidal QDD Actuator Project.
 url: "https://jeongseojin.github.io/quasi-direct-drive-actuator/"
 
+header_pages:
+  - README.md
+  - projects.md
+  - about.md
+  
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
