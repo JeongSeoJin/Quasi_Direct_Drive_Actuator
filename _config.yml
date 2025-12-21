@@ -1,6 +1,18 @@
 title: Seo Jin Jeong
-logo: img/profile-image.jpg
+logo: img/profile-image.png
 description: This is a Cycloidal QDD Actuator Project Page
+url: "https://seojinjeong.github.io"
+baseurl: ""
+author:
+  name: Seo Jin Jeong
+  email: pysuk88@gmail.com
 # show_downloads: true
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/page:num/" 
 
