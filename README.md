@@ -86,11 +86,11 @@ As shown in the equation, torque is linearly proportional to the stack length ($
 
 In dynamic legged locomotion, the actuator must withstand high impact loads caused by ground reaction forces. While **Harmonic Drives** are industry standards for zero-backlash precision, their flexible spline mechanism is notoriously fragile under shock loads.
 
-Similarly, **Planetary Gearboxes**, though common, exhibit inherent backlash. **It works well with aluminum gears, but becomes significantly fragile when 3D printed.** In a 3D-printed planetary system, the stress concentrates on individual small gear teeth, making them prone to catastrophic failure under sudden external forces.
+Similarly, **Planetary Gearboxes**, though common, exhibit inherent backlash. It works well with aluminum gears, but becomes significantly fragile when 3D printed. In a 3D-printed planetary system, the stress concentrates on individual small gear teeth, making them prone to catastrophic failure under sudden external forces.
 
-To ensure robustness, I selected a **Cycloidal Reducer** architecture. According to Sensinger's research, this mechanism **distributes the load across multiple lobes simultaneously**. This load-sharing capability provides significantly higher **Shock Resistance** compared to involute gears or fragile harmonic drives, making it the ideal candidate for a fully 3D-printed transmission [[5]](#8-references).
+To ensure robustness, I selected a **Cycloidal Reducer** architecture. According to Sensinger's research, this mechanism distributes the load across multiple lobes simultaneously. This load-sharing capability provides significantly higher Shock Resistance compared to involute gears or fragile harmonic drives, making it the ideal candidate for a fully 3D-printed transmission [[5]](#8-references).
 
-Furthermore, I optimized the internal mechanism for efficiency. While the outer profile uses a solid design for structural strength, the **internal output mechanism operates based on Rolling Contact**. By utilizing rolling pins for the output shaft transmission, I successfully minimized internal friction where structural fragility is less of a concern. This strategic design choice preserves the **Back-drivability** required for the QDD system while maintaining the robustness of the outer shell [[6]](#8-references).
+Furthermore, I optimized the internal mechanism for efficiency. While the outer profile uses a solid design for structural strength, the internal output mechanism operates based on Rolling Contact. By utilizing rolling pins for the output shaft transmission, I successfully minimized internal friction where structural fragility is less of a concern. This strategic design choice preserves the Back-drivability required for the QDD system while maintaining the robustness of the outer shell [[6]](#8-references).
 
 ---
 
@@ -99,11 +99,11 @@ Furthermore, I optimized the internal mechanism for efficiency. While the outer 
 ### 3.1 Mechanical Design (Cycloidal Reducer)
 A custom **Cycloidal Quasi-Direct Drive Actuator** is designed to ensure high torque density, compactness, and compliance.
 
-I utilized **Onshape 3D CAD** to design a **dual-disc cycloidal mechanism**. The two cycloidal discs are arranged with a **$180^\circ$ phase offset**. This configuration effectively cancels out the radial forces and vibrations induced by the eccentric input shaft, ensuring smooth operation.
+I utilized Onshape 3D CAD to design a dual-disc cycloidal mechanism. The two cycloidal discs are arranged with a $180^\circ$ phase offset. This configuration effectively cancels out the radial forces and vibrations induced by the eccentric input shaft, ensuring smooth operation.
 
-To maximize efficiency, I integrated **rollers into the output pins**. Unlike simple sliding contacts, these rollers minimize internal friction at the output stage, contributing to the system's back-drivability.
+To maximize efficiency, I integrated rollers into the output pins. Unlike simple sliding contacts, these rollers minimize internal friction at the output stage, contributing to the system's back-drivability.
 
-For the current prototype, the gears, shafts and rotor are manufactured from CNC-machined Aluminum to verify the design with a high strength-to-weight ratio. (Note: The final goal of this project is to optimize the design for a **fully 3D-printed, low-cost actuator for dynamic robots**.)
+For the current prototype, the gears, shafts and rotor are manufactured from CNC-machined Aluminum to verify the design with a high strength-to-weight ratio. (Note: The final goal of this project is to optimize the design for a fully 3D-printed, low-cost actuator for dynamic robots.)
 
   <table>
     <tr>
@@ -116,16 +116,16 @@ For the current prototype, the gears, shafts and rotor are manufactured from CNC
 
 To optimize torque density within the compact housing, I integrated a **custom-built frameless Brushless DC (BLDC) motor** instead of using a standard motor.
 
-For the stator, I utilized a standard **8110 stator core**. To achieve the desired current capacity and fill factor, the stator was hand-wound using 0.4mm enameled copper wire. I applied a Wye (Star) termination with 6 parallel strands and 5 turns per tooth, following the optimal winding scheme calculated via open-source tools [[7]](#8-references).
+For the stator, I utilized a standard 8110 stator core. To achieve the desired current capacity and fill factor, the stator was hand-wound using 0.4mm enameled copper wire. I applied a Wye (Star) termination with 6 parallel strands and 5 turns per tooth, following the optimal winding scheme calculated via open-source tools [[7]](#8-references).
 
 
-The motor adopts a **36N42P configuration** (36 slots, 42 poles) to maximize torque output. For the rotor, **42 N52-grade Neodymium magnets** were installed. These magnets were precisely bonded using high-strength epoxy (JB Weld) in an alternating polarity pattern (N-S-N-S) to maximize magnetic flux density and ensure structural integrity under high rotation speeds. Crucially, the rotor geometry was optimized to achieve a **minimal air gap of 0.5mm**. This tight clearance maximizes the **magnetic flux linkage** between the rotor and stator, thereby significantly enhancing the electromagnetic force and overall torque efficiency.
+The motor adopts a 36N42P configuration (36 slots, 42 poles) to maximize torque output. For the rotor, 42 N52-grade Neodymium magnets were installed. These magnets were precisely bonded using high-strength epoxy (JB Weld) in an alternating polarity pattern (N-S-N-S) to maximize magnetic flux density and ensure structural integrity under high rotation speeds. Crucially, the rotor geometry was optimized to achieve a minimal air gap of 0.5mm. This tight clearance maximizes the magnetic flux linkage between the rotor and stator, thereby significantly enhancing the electromagnetic force and overall torque efficiency.
 
 
 ### 3.3 Electronics & Sensors
 For precise torque control and dynamic response, I integrated the **Moteus-c1 controller** (mjbots). This controller is widely adopted in the dynamic robotics community for its compact form factor and high bandwidth.
 
-It implements **Field Oriented Control (FOC)**, which is essential for smooth torque generation and the proprioceptive capabilities mentioned earlier. With a wide input range (10-51V) and **20A peak phase current**, it provides sufficient power capacity to drive the custom-wound 8110 stator to its full potential.
+It implements **Field Oriented Control (FOC)**, which is essential for smooth torque generation and the proprioceptive capabilities mentioned earlier. With a wide input range (10-51V) and 20A peak phase current, it provides sufficient power capacity to drive the custom-wound 8110 stator to its full potential.
 
 <img src="actual-img/controller.webp" width="250" alt="Actuator image 2" />
 ---
@@ -134,9 +134,9 @@ It implements **Field Oriented Control (FOC)**, which is essential for smooth to
 Precise assembly is critical to minimize backlash and ensure the longevity of the reducer. I implemented distinct **tolerance strategies** based on the material properties of each component.
 
 ### 4.1 Bearing Installation & Fits
-For the housing components printed in PA-CF12 (Carbon Fiber Nylon), I designed a **0.1mm interference fit**. This accounts for the material's slight compliance and thermal shrinkage during printing, ensuring a secure press-fit without cracking the part.
+For the housing components printed in PA-CF12 (Carbon Fiber Nylon), I designed a 0.1mm interference fit. This accounts for the material's slight compliance and thermal shrinkage during printing, ensuring a secure press-fit without cracking the part.
 
-Conversely, for the CNC-machined Aluminum parts, a tighter **0.02mm interference fit** was applied due to the metal's rigidity. To prevent any micro-movements or slippage under high torque loads, I reinforced these metal-to-bearing interfaces with a thin application of JB Weld epoxy.
+Conversely, for the CNC-machined Aluminum parts, a tighter 0.02mm interference fit was applied due to the metal's rigidity. To prevent any micro-movements or slippage under high torque loads, I reinforced these metal-to-bearing interfaces with a thin application of JB Weld epoxy.
 
 
 ### 4.2 Output Mechanism
@@ -156,7 +156,7 @@ preparing
 Through the testing and assembly process, two primary limitations were identified regarding the actuator's performance and structural dynamics.
 
 First, Suboptimal Magnetic Flux Path (Rotor Design)
-The current rotor design does not incorporate a **ferromagnetic back-iron** or a **Halbach array** arrangement. Consequently, the magnetic flux is not effectively focused inward toward the stator, leading to flux leakage.
+The current rotor design does not incorporate a ferromagnetic back-iron or a Halbach array arrangement. Consequently, the magnetic flux is not effectively focused inward toward the stator, leading to flux leakage.
 
 Since air-gap flux density directly correlates with torque generation, this lack of magnetic circuit optimization results in a lower torque density than theoretically possible. In future iterations, adding a steel back-iron will be essential to maximize torque output.
 
