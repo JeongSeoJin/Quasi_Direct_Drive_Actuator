@@ -15,12 +15,11 @@
 
 # Cycloidal QDD Actuator for Dynamic Robots
 
-> *Since it's an ongoing project. The contents are not totally well-documented especially '5. Control & Validation part' I hope you understand regarding this problem. I'll test it as fast as I can*
+> *Note: This is an ongoing project. Please note that some sections, particularly '5. Control & Validation', are currently being documented. New test results and updates will be uploaded soon.*
 
 
 Table of contents
 
-- [0. Layout](#0-layout)
 - [1. Abstract](#1-abstract)
 - [2. Actuator Design : Why Cycloidal QDD Actuator?](#2-actuator-design-why-qdd-actuator)
 - [3. System Architecture & Components](#3-system-architecture--components)
@@ -31,14 +30,6 @@ Table of contents
 - [8. References](#8-references)
 
 ---
-
-## 0. Layout
-- Mechanical_CAD_Design/ — CAD models(assembly file) (STEP/Source)  
-- Motor_Control/ — Sources(if you're using esp32/arduino and drv8302 motor driver)
-- Mechanical_IMG/ — photos and renders used in this README  
-- OFF_THE_SHELF_SPECIFICATIONS/ — commercial component specs (bearings, shafts, controllers etc)  
-- BOM/ — Bill of Materials (preparing)
-
 
 ## 1. Abstract
 Rapid advancements in dynamic humanoid and quadruped robots have surged recently. However, high-performance actuators remain largely proprietary, restricting access for academic researchers and open-source communities. This project aims to democratize dynamic robotics by developing an open-source Quasi-Direct Drive (QDD) actuator tailored for mid-size humanoid robots.
@@ -170,7 +161,8 @@ The current rotor design does not incorporate a **ferromagnetic back-iron** or a
 Since air-gap flux density directly correlates with torque generation, this lack of magnetic circuit optimization results in a lower torque density than theoretically possible. In future iterations, adding a steel back-iron will be essential to maximize torque output.
 
 Second, Structural Rigidity of the Eccentric Shaft
-The second issue lies in the assembly of the eccentric input shaft. Currently, it is constructed as a multi-part assembly fastened with bolts and nuts, rather than a single monolithic part.
+The second issue lies in the assembly of the eccentric input shaft. Currently, it is constructed as a multi-part assembly fastened with bolts and nuts, rather than a single monolithic part. 
+
 During operation, the strong radial magnetic attraction between the rotor and stator exerts significant force on the shaft. This force compromises the alignment of the multi-part shaft assembly, causing slight structural deflection. This misalignment leads to unwanted oscillation and vibration, particularly at higher rotational speeds. A monolithic (single-piece) shaft design is required to resolve this issue.
 
 ### 6.2 Future Works
@@ -180,7 +172,7 @@ Using this actator, I could build mid-size humanoid robot or bipedal robot. 5dof
 ---
 
 ## 7. Credits
-* Design, Engineering and Documentation: Seo Jin Jeong
+* Design, Engineering and Documentation: [Seo Jin Jeong](https://jeongseojin.github.io/)
 * Manufacturing Sponsor: [JLCCNC](https://jlccnc.com/)
 * Motor Controller: [Moteus-c1 Controller (mjbots)](https://mjbots.com/products/moteus-c1?pr_prod_strat=e5_desc&pr_rec_id=5a7f102a9&pr_rec_pid=7839892799649&pr_ref_pid=7358414749857&pr_seq=uniform)
 * Youtube : [Engineering SeoJin](http://www.youtube.com/@engineeringseojin)
