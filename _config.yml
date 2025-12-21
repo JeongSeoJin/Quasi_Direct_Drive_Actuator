@@ -1,4 +1,10 @@
 title: Robotics Portfolio
-description: This is a Cycloidal QDD Actuator Project Page
+# description: This is a Cycloidal QDD Actuator Project Page
 theme: minima
+description: >-
+  Here is my portfolio
 
+header_pages:
+  - README.md
+  - qdd-actuator.md
+  - about.md
