@@ -72,7 +72,7 @@ Consequently, this **improved back-drivability and responsiveness** enable the r
 
 
 ### 2.3 Motor Design Optimization
-To achieve high torque density suitable for a Quasi-Direct Drive (QDD) system, I focused on the geometric parameters of the motor. According to the motor design principles outlined in the MIT Cheetah research, the continuous torque generation capability ($\tau$) is approximated by the following equation [[4]](#8-references):
+To achieve high torque density suitable for a Quasi-Direct Drive (QDD) system, I focused on the geometric parameters of the motor. According to the motor design principles outlined in the MIT Cheetah research, the continuous torque generation capability ($\tau$) is approximated by the following equation:
 
 $$\tau \propto \sigma \cdot l_{st} \cdot r_g^2$$
 
