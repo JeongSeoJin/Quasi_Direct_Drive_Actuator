@@ -59,7 +59,7 @@ A high gear ratio leads to **high mechanical impedance**, primarily due to incre
 
 This high impedance makes the motor response sluggish and susceptible to damage from sudden external impacts, as the actuators are too stiff to react compliantly. In other words, the actuator exhibits **poor back-drivability and low responsiveness**. Consequently, these properties hinder the robot's ability to interact safely with the environment, particularly in Human-Robot Interaction (HRI) scenarios or during dynamic locomotion.
 
-As robots become more integrated into our daily lives, physical interaction and cooperation will become increasingly common. In these scenarios, traditional actuators pose a significant safety risk [[2]](#8-references). Since robots with stiff actuators struggle to sense external forces [[3]](#8-references), they can unintentionally injure people due to their lack of compliance. Furthermore, regarding locomotion, such robots cannot flexibly adapt to unpredictable environments, such as rough or uneven terrain, leading to instability.
+As robots become more integrated into our daily lives, physical interaction and cooperation will become increasingly common. In these scenarios, traditional actuators pose a significant safety risk. Since robots with stiff actuators struggle to sense external forces [[2]](#8-references), they can unintentionally injure people due to their lack of compliance. Furthermore, regarding locomotion, such robots cannot flexibly adapt to unpredictable environments, such as rough or uneven terrain, leading to instability.
 
 ### 2.2 The QDD System Solution
 To address these issues, I adopted a **Quasi-Direct Drive (QDD) architecture**. A QDD system typically features a low gear reduction ratio, ranging from 1:3 to 1:10. By positioning itself between Direct Drive (1:1) and traditional high-ratio drives (1:50 or higher), it combines the structural advantages of both systems.
@@ -89,7 +89,7 @@ In dynamic legged locomotion, the actuator must withstand high impact loads caus
 
 Similarly, **Planetary Gearboxes**, though common, exhibit inherent backlash. It works well with aluminum gears, but becomes significantly fragile when 3D printed. In a 3D-printed planetary system, the stress concentrates on individual small gear teeth, making them prone to catastrophic failure under sudden external forces.
 
-To ensure robustness, I selected a **Cycloidal Reducer** architecture. According to Sensinger's research, this mechanism distributes the load across multiple lobes simultaneously. This load-sharing capability provides significantly higher Shock Resistance compared to involute gears or fragile harmonic drives, making it the ideal candidate for a fully 3D-printed transmission [[5]](#8-references).
+To ensure robustness, I selected a **Cycloidal Reducer** architecture. According to Sensinger's research, this mechanism distributes the load across multiple lobes simultaneously. This load-sharing capability provides significantly higher Shock Resistance compared to involute gears or fragile harmonic drives, making it the ideal candidate for a fully 3D-printed transmission [[3]](#8-references).
 
 Furthermore, I optimized the internal mechanism for efficiency. While the outer profile uses a solid design for structural strength, the internal output mechanism operates based on Rolling Contact. By utilizing rolling pins for the output shaft transmission, I successfully minimized internal friction where structural fragility is less of a concern. This strategic design choice preserves the Back-drivability required for the QDD system while maintaining the robustness of the outer shell.
 
@@ -117,7 +117,7 @@ For the current prototype, the gears, shafts and rotor are manufactured from CNC
 
 To optimize torque density within the compact housing, I integrated a **custom-built frameless Brushless DC (BLDC) motor** instead of using a standard motor.
 
-For the stator, I utilized a standard 8110 stator core. To achieve the desired current capacity and fill factor, the stator was hand-wound using 0.4mm enameled copper wire. I applied a Wye (Star) termination with 6 parallel strands and 5 turns per tooth, following the optimal winding scheme calculated via open-source tools [[7]](#8-references).
+For the stator, I utilized a standard 8110 stator core. To achieve the desired current capacity and fill factor, the stator was hand-wound using 0.4mm enameled copper wire. I applied a Wye (Star) termination with 6 parallel strands and 5 turns per tooth, following the optimal winding scheme calculated via open-source tools [[4]](#8-references).
 
 
 The motor adopts a 36N42P configuration (36 slots, 42 poles) to maximize torque output. For the rotor, 42 N52-grade Neodymium magnets were installed. These magnets were precisely bonded using high-strength epoxy (JB Weld) in an alternating polarity pattern (N-S-N-S) to maximize magnetic flux density and ensure structural integrity under high rotation speeds. Crucially, the rotor geometry was optimized to achieve a minimal air gap of 0.5mm. This tight clearance maximizes the magnetic flux linkage between the rotor and stator, thereby significantly enhancing the electromagnetic force and overall torque efficiency.
@@ -185,8 +185,8 @@ Moving forward, I aim to integrate these custom QDD actuators into a mid-size bi
 
 [1] S. Seok et al., "Design Principles for Energy-Efficient Legged Locomotion and Implementation on the MIT Cheetah Robot," in IEEE/ASME Transactions on Mechatronics, vol. 20, no. 3, pp. 1117-1129, June 2015, doi: 10.1109/TMECH.2014.2339013. 
 
-[3] P. M. Wensing, A. Wang, S. Seok, D. Otten, J. Lang and S. Kim, "Proprioceptive Actuator Design in the MIT Cheetah: Impact Mitigation and High-Bandwidth Physical Interaction for Dynamic Legged Robots," in IEEE Transactions on Robotics, vol. 33, no. 3, pp. 509-522, June 2017, doi: 10.1109/TRO.2016.2640183.
+[2] P. M. Wensing, A. Wang, S. Seok, D. Otten, J. Lang and S. Kim, "Proprioceptive Actuator Design in the MIT Cheetah: Impact Mitigation and High-Bandwidth Physical Interaction for Dynamic Legged Robots," in IEEE Transactions on Robotics, vol. 33, no. 3, pp. 509-522, June 2017, doi: 10.1109/TRO.2016.2640183.
 
-[5] Sensinger, J. W. (February 9, 2010). "Unified Approach to Cycloid Drive Profile, Stress, and Efficiency Optimization." ASME. J. Mech. Des. February 2010; 132(2): 024503. https://doi.org/10.1115/1.4000832
+[3] Sensinger, J. W. (February 9, 2010). "Unified Approach to Cycloid Drive Profile, Stress, and Efficiency Optimization." ASME. J. Mech. Des. February 2010; 132(2): 024503. https://doi.org/10.1115/1.4000832
 
-[7] "bavaria-direct.co.za - Homebuilt Electric Motors," [Online]. Available: https://www.bavaria-direct.co.za/scheme/calculator/.
+[4] "bavaria-direct.co.za - Homebuilt Electric Motors," [Online]. Available: https://www.bavaria-direct.co.za/scheme/calculator/.
