@@ -91,7 +91,7 @@ Similarly, **Planetary Gearboxes**, though common, exhibit inherent backlash. It
 
 To ensure robustness, I selected a **Cycloidal Reducer** architecture. According to Sensinger's research, this mechanism distributes the load across multiple lobes simultaneously. This load-sharing capability provides significantly higher Shock Resistance compared to involute gears or fragile harmonic drives, making it the ideal candidate for a fully 3D-printed transmission [[5]](#8-references).
 
-Furthermore, I optimized the internal mechanism for efficiency. While the outer profile uses a solid design for structural strength, the internal output mechanism operates based on Rolling Contact. By utilizing rolling pins for the output shaft transmission, I successfully minimized internal friction where structural fragility is less of a concern. This strategic design choice preserves the Back-drivability required for the QDD system while maintaining the robustness of the outer shell [[6]](#8-references).
+Furthermore, I optimized the internal mechanism for efficiency. While the outer profile uses a solid design for structural strength, the internal output mechanism operates based on Rolling Contact. By utilizing rolling pins for the output shaft transmission, I successfully minimized internal friction where structural fragility is less of a concern. This strategic design choice preserves the Back-drivability required for the QDD system while maintaining the robustness of the outer shell.
 
 ---
 
@@ -183,16 +183,10 @@ Moving forward, I aim to integrate these custom QDD actuators into a mid-size bi
 
 ## 8. References
 
-[1] S. Seok, A. Wang, M. Y. Chuah, D. J. Hyun, J. Lee, D. M. Otten, and S. Kim, "Design principles for energy-efficient legged locomotion and robust force control," in *IEEE/ASME Transactions on Mechatronics*, vol. 20, no. 6, pp. 2817-2827, Dec. 2015.
+[1] S. Seok et al., "Design Principles for Energy-Efficient Legged Locomotion and Implementation on the MIT Cheetah Robot," in IEEE/ASME Transactions on Mechatronics, vol. 20, no. 3, pp. 1117-1129, June 2015, doi: 10.1109/TMECH.2014.2339013. 
 
-[2] S. Haddadin, A. Albu-Schaffer, and G. Hirzinger, "Safety evaluation of physical human-robot interaction via crash-testing," in *Robotics: Science and Systems IV (RSS)*, Zurich, Switzerland, Jun. 2008.
+[3] P. M. Wensing, A. Wang, S. Seok, D. Otten, J. Lang and S. Kim, "Proprioceptive Actuator Design in the MIT Cheetah: Impact Mitigation and High-Bandwidth Physical Interaction for Dynamic Legged Robots," in IEEE Transactions on Robotics, vol. 33, no. 3, pp. 509-522, June 2017, doi: 10.1109/TRO.2016.2640183.
 
-[3] P. M. Wensing, A. Wang, S. Seok, D. Otten, J. Lang, and S. Kim, "Proprioceptive actuator design in the MIT Cheetah: Impact mitigation and high-bandwidth physical interaction," in *IEEE Transactions on Robotics*, vol. 33, no. 3, pp. 509-522, June 2017.
-
-[4] S. Seok, A. Wang, M. Y. Chuah, D. J. Hyun, J. Lee, D. M. Otten, J. H. Lang, and S. Kim, "Design principles for energy-efficient legged locomotion and implementation on the MIT Cheetah robot," in IEEE/ASME Transactions on Mechatronics, vol. 20, no. 3, pp. 1117-1129, June 2015.
-
-[5] J. W. Sensinger, "Unified approach to cycloidal drive profile design," in *ASME Journal of Mechanical Design*, vol. 132, no. 2, 2010.
-
-[6] V. Macián, A. R. Gil, and R. Bernabeu, "Analytical model for the efficiency of cycloidal drives with clearances," in *Mechanism and Machine Theory*, vol. 127, pp. 26-42, 2018.
+[5] Sensinger, J. W. (February 9, 2010). "Unified Approach to Cycloid Drive Profile, Stress, and Efficiency Optimization." ASME. J. Mech. Des. February 2010; 132(2): 024503. https://doi.org/10.1115/1.4000832
 
 [7] "bavaria-direct.co.za - Homebuilt Electric Motors," [Online]. Available: https://www.bavaria-direct.co.za/scheme/calculator/.
